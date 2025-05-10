@@ -1,7 +1,7 @@
-function firstChar(text) {
-	for (let i = 0; i < text.length; i++) {
-    if (text[i] !== ' ') {
-      return text[i];
+function firstChar(str) {
+	for (let i = 0; i < str.length; i++) {
+    if (str[i] !== ' ') {
+      return str[i];
     }
   }
   return ''; // your code here
@@ -10,4 +10,4 @@ function firstChar(text) {
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
 //const text = prompt("Enter text:");
-alert(firstChar(text));
+alert(firstChar(str));
